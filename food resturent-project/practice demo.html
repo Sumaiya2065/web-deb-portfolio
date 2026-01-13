@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        #hero{
+            height:615px;
+            color: rgba(255, 255, 255, 1);
+            background-image: linear-gradient(0.00deg,
+             rgba(9.2, 8.93, 8.93, 1),
+             rgba(16, 16, 16, 0) 100%),
+             url("assets/hero-bg.png");
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;//parent er bitore j child ase take vertically center kore
+            opacity:0.4px;
+        }
+        #hero .hero-content{
+            width:886px;
+            /* margin:0 auto; */
+        }
+        #hero .hero-content .pera{
+            
+            font-family: Work Sans;
+            font-style: SemiBold;
+            font-size: 22px;
+            font-weight: 600;
+            line-height: 38px;
+            letter-spacing: 0%;
+            text-align: center;
+            opacity: 0.8;
+            margin-bottom: 10px;
+        }
+
+        #hero .hero-content .description{
+                color: rgba(255, 255, 255, 1);
+                font-family: Work Sans;
+                font-style: Bold;
+                font-size: 50px;
+                font-weight: 700;
+                line-height: 54px;
+                letter-spacing: 0%;
+                text-align: center;
+                margin-bottom: 11px;
+
+        }
+        .buton{
+           text-align: center;
+             
+        }
+        .btn{
+            color: rgba(255, 255, 255, 1);
+            font-family: Work Sans;
+            font-style: SemiBold;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 23px;
+            letter-spacing: 0%;
+            text-align: center;
+            background-color: rgb(34, 237, 16);
+            border:none;
+            width:165px;
+            height:30px;
+            cursor:pointer;
+            padding:5px 5px;
+        }
+        
+      
+        .card-box{
+            width:1286px;
+            margin:100px auto;
+        }
+        .card-box .title{
+            color: rgba(16, 16, 16, 1);
+
+            font-family: Work Sans;
+            font-style: Bold;
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 42px;
+            letter-spacing: 0%;
+            width:390px;
+            margin-left: 300px;
+            text-align:center;
+            
+            
+
+        }
+        
+        .card-box .subtitle{
+                color: rgba(16, 16, 16, 1);
+
+                font-family: Work Sans;
+                font-style: Medium;
+                font-size: 20px;
+                font-weight: 500;
+                line-height: 19px;
+                letter-spacing: 0%;
+                
+                opacity:0.6;
+                margin-left: 450px;
+
+                
+        }
+        .card-container{
+            margin-top:30px;
+            display: flex;
+            justify-content:space-between;
+            gap: 20px;
+            font-family: Work Sans;
+            text-align: center;
+            align-items: center;
+        }
+        .card{
+            max-width:284px;
+            display: flex;
+            flex-direction: column;
+            gap:10px;
+            justify-content: center;
+            align-items: center;
+
+
+        }
+        .card-container{
+            width:284px;
+        }
+        .card .image-box{
+            width:284px;
+        }
+        .image-box img{
+            width: 100%;
+            height: auto;
+        }
+        .card .spanclass{
+  
+            padding:8px 16px;
+            background-color: rgb(46, 239, 149);
+
+                    }
+
+        
+        
+    
+
+        
+        
+       
+        
+
+    </style>
+</head>
+<body>
+    <!-- section>div>p+h1+p+button -->
+     <section  id="hero">
+        <div class="hero-content">
+            <p class="pera">Savor the Flavors</p>
+            <h1 class="description">Experience Culinary Excellence Food Experience</h1>
+            <p class="pera">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock</p>
+            <div class="buton">
+                <button class="btn">Shop The Hotest Food</button>
+            </div>
+            
+        </div>
+     </section>
+
+     <!-- section>div>div>+p+h1>div>img+span+h1>div>button -->
+      <section class="card-box">
+        <div class="container">
+            <div >
+                <p class="subtitle">Favorite Brands</p>
+                <h1 class="title">Your Favorite Brands Food Are Now On Sale</h1>
+            </div>
+            <div class="card-container">
+                     <div class="card">
+                <div  class="image-box">
+                    <img  src="assets/pizza.png" alt="">
+                </div>
+                <div>
+                    <span class="spanclass">Pizza Burg</span>
+                </div>
+                <h1>Up To 50% Off</h1>
+                <p>Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
+                <button class="btn">watch all sell</button>
+
+                </div>
+                <div class="card">
+                <div class="image-box">
+                    <img  src="assets/biriyani.png" alt="">
+                </div>
+                <div class="spanclass">
+                    <span>Pizza Burg</span>
+                </div>
+                <h1>Up To 50% Off</h1>
+                <p>Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
+                <button class="btn">watch all sell</button>
+                </div>
+                     
+                <div class="card">
+                <div class="image-box">
+                    <img  src="assets/burger.png" alt="">
+                </div>
+                <div class="spanclass">
+                    <span>Pizza Burg</span>
+                </div>
+                <h1>Up To 50% Off</h1>
+                <p>Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
+                <button class="btn">watch all sell</button>
+
+                
+
+            </div>
+          
+       
+        </div>
+      </section>
+</body>
+</html>
+
+
+
+Hi, I  am
+Mary Hardy
+Shot what able cold new see hold.Friendly as an betrayed formerly he. Morning because as to society behaved moments.
+Download CV
+Contact
