@@ -12,6 +12,9 @@
         color:rgba(253, 110, 10, 1);
 
     }
+    .text-center{
+        text-align:center;
+    }
     .secondary-bg{
         background-color:rgba(255, 248, 243, 1) ;
     }
@@ -126,6 +129,8 @@ main{
 .about-description{
     color:rgba(117, 117, 117, 1);
     font-size:18px;
+    padding:20px;
+    text-align: center;
 }
 .about-footer{
     display: flex;
@@ -133,5 +138,106 @@ main{
 }
 .about-details{
     margin:956 230 2739 226;
+}
+/* skill container */
+.skill-container{
+    display: flex;
+    gap:24px;
+    margin-top:30px;
+    border-radius: 5px;
+}
+.skills{
+    padding:32px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill-title{
+    font-weight: bold;
+    font-size: 20px;
+}
+/* rgba(117, 117, 117, 1) */
+
+.skill-description-{
+    color:rgba(117, 117, 117, 1);
+    font-size: 16px;
+}
+main section{
+   margin-top:100px;
+   margin-bottom: 100px;
+}
+
+/* resume part design */
+.resume-container{
+    display: flex;
+    gap:71px;
+
+}
+.resume-title{
+    font-size:30px;
+    font-weight: 800px;
+}
+.experience-title{
+    font-size: 25px;
+    font-weight: 25px;
+    
+}
+.experience-subtitle{
+    font-size: 20px;
+    font-weight: 600px;
+    margin-bottom:20px;
+    
+}
+.experience-description, .experience-subtitle{
+    color:#757575;
+
+}
+hr{
+    margin:30px;
+    color:#D1D1D1;
+}
+.download-cv{
+    margin-top:50px;
+    
+}
+.btn-primarily{
+    background-color:#FD6E0A;
+    padding:19px 17px;
+    border-radius:5px;
+    color:#FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+}
+
+/* footer container */
+footer{
+    padding:130px 230px;
+    display: flex;
+    gap:117px;
+}
+.footer-column{
+    width:50%;
+}
+footer input[type=text], footer input[type=email],footer textarea{
+    height:44px;
+    width:100%;
+    display: block;
+    background-color: #FFFFFF;
+    border-radius:5px;
+    padding:10px 20px;
+    margin-bottom:24px;
+    border:none;
+
+    
+    
+}
+.footer-description{
+    margin-bottom:30px;
+   width:100%;
+    
+    
+}
+.footer-title{
+    font-size: 30px;
+    font-weight: 700px;
 }
 
